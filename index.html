@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <!-- css -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- title -->
+  <title>Frontend Mentor | News homepage</title>
+</head>
+
+<body>
+  <div class="container">
+    <!-- header -->
+    <header class="page__header">
+      <figure>
+        <img class="page__logo" src="./assets/images/logo.svg" alt="logo">
+      </figure>
+      <nav class="page__nav" id="page-navbar">
+        <img class="page__navbar--close" id="icon-close" src="./assets/images/icon-menu-close.svg"
+          alt="icon-menu-close">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </nav>
+      <img class="page__navbar--open" id="icon-open" src="./assets/images/icon-menu.svg" alt="icon-menu-open">
+    </header>
+
+    <!-- section one -->
+    <section class="section-one">
+      <picture class="picture">
+        <source media="(min-width: 600px)" srcset="./assets/images/image-web-3-desktop.jpg">
+        <img src="./assets/images/image-web-3-mobile.jpg" alt="image-web-3">
+      </picture>
+      <div class="text-container">
+        <h1 class="text-title">The Bright Future of Web 3.0?</h1>
+        <div>
+          <p class="text-paragraph">We dive into the next evolution of the web that claims to put the power of the
+            platforms back into the hands of the people. But is it reallyfulfilling its promise?</p>
+          <a class="text-button" href="#">Read more</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- article -->
+    <section class="article">
+      <h2 class="article-title">New</h2>
+      <article class="first-article">
+        <h3 class="article-subtitle">Hydrogen VS Electric Cars</h3>
+        <p class="article-paragraph">Will hydrogen-fueled cars ever catch up to EVs?</p>
+      </article>
+      <article>
+        <h3 class="article-subtitle">The Downsides of AI Artistry</h3>
+        <p class="article-paragraph">What are the possible adverse effects of on-demand AI image generation?</p>
+      </article>
+      <article class="third-article">
+        <h3 class="article-subtitle"> Is VC Funding Drying Up?</h3>
+        <p class="article-paragraph">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+      </article>
+    </section>
+
+    <!-- section two -->
+    <section class="section-two">
+      <!-- one -->
+      <article class="flex-group">
+        <img src="./assets/images/image-retro-pcs.jpg" alt="image-retro-pcs">
+        <div class="text-flex">
+          <h2>01</h2>
+          <h3>Reviving Retro PCs</h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </article>
+      <!-- two -->
+      <article class="flex-group">
+        <img src="./assets/images/image-top-laptops.jpg" alt="image-top-laptops">
+        <div class="text-flex">
+          <h2>02</h2>
+          <h3>Top 10 Laptops of 2022</h3>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </article>
+      <!-- three -->
+      <article class="flex-group">
+        <img src="./assets/images/image-gaming-growth.jpg" alt="image-gaming-growth">
+        <div class="text-flex">
+          <h2>03</h2>
+          <h3>The Growth of Gaming</h3>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </article>
+    </section>
+  </div>
+
+  <!-- JS -->
+  <script src="./js/script.js"></script>
+
+  <!-- footer -->
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Emanuel Bonardo</a>.
+  </div> -->
+</body>
+
+</html>
